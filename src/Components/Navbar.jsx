@@ -9,7 +9,7 @@ function BasicExample() {
     return (
       <Navbar bg="light fw-bold fs-5 expand-lg py-3 shadow-sm">
         <Container>
-          <Navbar.Brand href="#home">Carrito de Compras</Navbar.Brand>
+          <Navbar.Brand href="#home">Ecommerce React</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
