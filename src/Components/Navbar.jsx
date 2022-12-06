@@ -22,9 +22,9 @@ function BasicExample() {
                 <a href="login"className='btn btn-outline-success'>
                   <i className="fa fa-sign-in me-2"></i>Login</a>
                   <a href="login"className='btn btn-outline-success ms-2'>
-                  <i className="fa fa-user-plus me-2"></i>Register</a>
+                  <i className="fa fa-user-plus me-2"></i>Registro</a>
                   <a href="login"className='btn btn-outline-success ms-2'>
-                  <i className="fa fa-shopping-cart me-2"></i>Cart (0)</a>
+                  <i className="fa fa-shopping-cart me-2"></i>Carrito (0)</a>
             </div>
           </Navbar.Collapse>
         </Container>

@@ -55,11 +55,11 @@ const Products = () => {
     return(
       <>
         <div className='buttons d-flex justify-content-center mb-5 pb-5'>
-        <button className='btn btn-outline-dark me-2' onClick={()=>setFilter(data)}>All</button>
-        <button className='btn btn-outline-dark me-2' onClick={()=>filterProduct("men's clothing")}>Men's Clothing</button>
-        <button className='btn btn-outline-dark me-2' onClick={()=>filterProduct("women's clothing")}>Women's Clothing</button>
-        <button className='btn btn-outline-dark me-2' onClick={()=>filterProduct("jewelery")}>Jewelery Clothing</button>
-        <button className='btn btn-outline-dark me-2' onClick={()=>filterProduct("electronics")}>Electronic</button>
+        <button className='btn btn-outline-dark me-2' onClick={()=>setFilter(data)}>Todo</button>
+        <button className='btn btn-outline-dark me-2' onClick={()=>filterProduct("men's clothing")}>Ropa Hombre</button>
+        <button className='btn btn-outline-dark me-2' onClick={()=>filterProduct("women's clothing")}>Ropa Mujer</button>
+        <button className='btn btn-outline-dark me-2' onClick={()=>filterProduct("jewelery")}>Joyeria</button>
+        <button className='btn btn-outline-dark me-2' onClick={()=>filterProduct("electronics")}>Electronicos</button>
         </div>
         {filter.map((product) =>{
            return(
@@ -70,7 +70,7 @@ const Products = () => {
         <div class="card-body">
         <h5 class="card-title mb-0">{product.title.substring(0,12)}</h5>
         <p class="card-text lead fw-bold">${product.price}</p>
-        <a href="#" class="btn btn-outline-dark">
+        <a href="#" class="btn btn-outline-success">
         Comprar ahora
         </a>
       </div>
@@ -88,7 +88,7 @@ const Products = () => {
             <div className='container my-5 py-5'>
                 <div className='row'>
                     <div className='col-12 mb-5'>
-                       <h1 className='display-6 fw-bolder text-center'>Latest Products</h1>
+                       <h1 className='display-6 fw-bolder text-center'>Ultimos Productos</h1>
                        <hr />
                     </div>
                 </div>
